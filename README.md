@@ -9,7 +9,7 @@ Current deep learning (DL)-based palmprint verification models rely on centraliz
 
 If you have already tried our previous works [CCNet](https://github.com/Zi-YuanYang/CCNet) or [CO3Net](https://github.com/Zi-YuanYang/CO3Net), you can skip this step.
 
-Our codes were implemented by ```PyTorch 1.10``` and ```11.3``` CUDA version. If you wanna try our method, please first install necessary packages as follows:
+Our codes were implemented by ```PyTorch 1.10``` and ```11.3``` CUDA version. Please first install necessary packages as follows:
 
 ```
 pip install requirements.txt
