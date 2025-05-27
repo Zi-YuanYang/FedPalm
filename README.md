@@ -5,11 +5,9 @@ This repository is a PyTorch implementation of FedPalm (FedPalm: A General Feder
 #### Abstract
 Current deep learning (DL)-based palmprint verification models rely on centralized training with large datasets, which raises significant privacy concerns due to the sensitive and immutable nature of biometric data. Federated learning~(FL), a privacy-preserving distributed learning paradigm, offers a compelling alternative by enabling collaborative model training without the need for data sharing. However, FL-based palmprint verification faces critical challenges, including data heterogeneity from diverse identities and the absence of standardized evaluation benchmarks. This paper addresses these gaps by establishing a comprehensive benchmark for FL-based palmprint verification, which explicitly defines and evaluates two practical scenarios: closed-set and open-set verification. We propose FedPalm, a unified FL framework that balances local adaptability with global generalization. Each client trains a personalized textural expert tailored to local data and collaboratively contributes to a shared global textural expert for extracting generalized features. To further enhance verification performance, we introduce a Textural Expert Interaction Module that dynamically routes textural features among experts to generate refined side textural features. Learnable parameters are employed to model relationships between original and side features, fostering cross-texture-expert interaction and improving feature discrimination. Extensive experiments validate the effectiveness of FedPalm, demonstrating robust performance across both scenarios and providing a promising foundation for advancing FL-based palmprint verification research. 
 
-
-
 #### Requirements
 
-If you have already tried our previous work [CO3Net](https://github.com/Zi-YuanYang/CO3Net), you can skip this step.
+If you have already tried our previous works [CCNet](https://github.com/Zi-YuanYang/CCNet) or [CO3Net](https://github.com/Zi-YuanYang/CO3Net), you can skip this step.
 
 Our codes were implemented by ```PyTorch 1.10``` and ```11.3``` CUDA version. If you wanna try our method, please first install necessary packages as follows:
 
