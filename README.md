@@ -40,6 +40,9 @@ For IITD:
 python Train_FL_FedPalm.py --id_num 460 --train_set_file ./data/train_IITD.txt --val_set_file ./data/val_IITD.txt --gallery_set_file ./data/test_gallery_IITD.txt  --query_set_file ./data/test_query_IITD.txt --com 100
 ```
 
+#### Contact
+If you have any question or suggestion to our work, please feel free to contact me. My email is cziyuanyang@gmail.com.
+
 #### Citation
 If our work is valuable to you, please cite our work:
 ```
