@@ -1,7 +1,7 @@
  # <p align=center>  FedPalm: A General Federated Learning Framework for Closed- and Open-Set Palmprint Verification
  <div align="center">
   
-[![TIFS'26](https://img.shields.io/badge/FedPalm-TIFS-red.svg)](https://ieeexplore.ieee.org/document/11421914)
+[![TIFS'26](https://img.shields.io/badge/FedPalm-TIFS'26-red.svg)](https://ieeexplore.ieee.org/document/11421914)
 
 
 
