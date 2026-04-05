@@ -2,7 +2,7 @@
  <div align="center">
   
 [![TIFS'26](https://img.shields.io/badge/FedPalm-TIFS'26-red.svg)](https://ieeexplore.ieee.org/document/11421914)
-
+</div>
 
 
 > **FedPalm:** This repository is a PyTorch implementation of FedPalm (accepted by TIFS'26). The paper can be accessed at [this link](https://ieeexplore.ieee.org/document/11421914). 
