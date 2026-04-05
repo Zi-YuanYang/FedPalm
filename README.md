@@ -1,3 +1,10 @@
+ # <p align=center>  FedPalm: A General Federated Learning Framework for Closed- and Open-Set Palmprint Verification
+ <div align="center">
+  
+[![TIFS'26](https://img.shields.io/badge/FedPalm-TIFS-red.svg)](https://ieeexplore.ieee.org/document/11421914)
+
+
+
 # FedPalm
 
 This repository is a PyTorch implementation of FedPalm (FedPalm: A General Federated Learning Framework for Closed- and Open-Set Palmprint Verification). The paper can be accessed at [this link](https://ieeexplore.ieee.org/document/11421914). 
