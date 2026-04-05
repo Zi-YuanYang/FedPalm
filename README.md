@@ -1,6 +1,6 @@
 # FedPalm
 
-This repository is a PyTorch implementation of FedPalm (FedPalm: A General Federated Learning Framework for Closed- and Open-Set Palmprint Verification). The paper can be accessed at [this link](https://arxiv.org/abs/2503.04837). 
+This repository is a PyTorch implementation of FedPalm (FedPalm: A General Federated Learning Framework for Closed- and Open-Set Palmprint Verification). The paper can be accessed at [this link](https://ieeexplore.ieee.org/document/11421914). 
 
 #### Abstract
 Current deep learning (DL)-based palmprint verification models rely on centralized training with large datasets, which raises significant privacy concerns due to the sensitive and immutable nature of biometric data. Federated learning~(FL), a privacy-preserving distributed learning paradigm, offers a compelling alternative by enabling collaborative model training without the need for data sharing. However, FL-based palmprint verification faces critical challenges, including data heterogeneity from diverse identities and the absence of standardized evaluation benchmarks. This paper addresses these gaps by establishing a comprehensive benchmark for FL-based palmprint verification, which explicitly defines and evaluates two practical scenarios: closed-set and open-set verification. We propose FedPalm, a unified FL framework that balances local adaptability with global generalization. Each client trains a personalized textural expert tailored to local data and collaboratively contributes to a shared global textural expert for extracting generalized features. To further enhance verification performance, we introduce a Textural Expert Interaction Module that dynamically routes textural features among experts to generate refined side textural features. Learnable parameters are employed to model relationships between original and side features, fostering cross-texture-expert interaction and improving feature discrimination. Extensive experiments validate the effectiveness of FedPalm, demonstrating robust performance across both scenarios and providing a promising foundation for advancing FL-based palmprint verification research. 
@@ -46,10 +46,13 @@ If you have any question or suggestion to our work, please feel free to contact 
 #### Citation
 If our work is valuable to you, please cite our work:
 ```
-@article{yang2025fedpalm,
+@article{yang2026fedpalm,
   title={FedPalm: A General Federated Learning Framework for Closed-and Open-Set Palmprint Verification},
-  author={Yang, Ziyuan and Chen, Yingyu and Gao, Chengrui and Teoh, Andrew Beng Jin and Zhang, Bob and Zhang, Yi},
-  journal={arXiv preprint arXiv:2503.04837},
-  year={2025}
-}
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={FedPalm: A General Federated Learning Framework for Closed- and Open-Set Palmprint Verification}, 
+  year={2026},
+  volume={21},
+  number={},
+  pages={3093-3107},
+  doi={10.1109/TIFS.2026.3671064}}
 ```
